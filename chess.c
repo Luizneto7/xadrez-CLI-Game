@@ -4,7 +4,7 @@ int main()
 {
     int i = 1, menuChoice, square;
 
-    printf("\n\n ******* Bem-Vindo ao Chess CLI Game ******* \n");
+    printf("\n\n ******* Bem-Vindo ao Chess CLI Game ******* \n\n");
 
     do
     {
@@ -19,7 +19,7 @@ int main()
     switch (menuChoice)
     {
     case 1:
-        printf("Quantas casas deseja mover a torre?\n");
+        printf("Quantas casas deseja mover a torre?\n\n");
         scanf("%d", &square);
 
         for (int i = 1; i <= square; i++)
@@ -29,19 +29,19 @@ int main()
         break;
 
     case 2:
-        printf("Quantas casas deseja mover o bispo?\n");
+        printf("Quantas casas deseja mover o bispo?\n\n");
         scanf("%d", &square);
 
         do
         {
-            printf("Direita\n");
+            printf("Cima, Direita\n");
             i++;
         } while (i <= square);
 
         break;
 
     case 3:
-        printf("Quantas casas deseja mover a rainha?\n");
+        printf("Quantas casas deseja mover a rainha?\n\n");
         scanf("%d", &square);
 
         while (i <= square)
