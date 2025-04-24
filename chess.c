@@ -68,18 +68,6 @@ int main()
         printf("Quantas casas deseja mover o bispo?\n\n");
         scanf("%d", &square);
 
-<<<<<<< HEAD
-        do
-        {
-            printf("Cima, Direita\n");
-            i++;
-        } while (i <= square);
-=======
-        printf("\nMovimentação do bispo:\n");
-        bishopMovement(square);
-        printf("\nFim da movimentação do bispo.\n");
->>>>>>> newBranch
-
         break;
 
     case 3:
