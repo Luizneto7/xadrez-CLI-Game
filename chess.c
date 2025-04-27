@@ -68,6 +68,10 @@ int main()
         printf("Quantas casas deseja mover o bispo?\n\n");
         scanf("%d", &square);
 
+        printf("\nMovimentação do bispo:\n");
+        bishopMovement(square);
+        printf("\nFim da movimentação do bispo.\n");
+
         break;
 
     case 3:
